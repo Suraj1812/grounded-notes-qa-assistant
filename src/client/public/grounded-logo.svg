@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Grounded logo</title>
+  <desc id="desc">Layered note pages rooted by a small amber point.</desc>
+  <rect width="64" height="64" rx="18" fill="#44633f"/>
+  <path d="M16 20.5 32 13l16 7.5L32 28z" fill="#f7f5ee"/>
+  <path d="m16 29 16 7.5L48 29v7.5L32 44l-16-7.5z" fill="#f7f5ee" opacity=".82"/>
+  <path d="M32 45v7" stroke="#f7f5ee" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="32" cy="53" r="3" fill="#e18a59"/>
+</svg>

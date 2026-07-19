@@ -1,0 +1,38 @@
+{
+  "name": "notes-qa-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "node --import tsx src/server/index.ts",
+    "build": "tsc --noEmit && vite build",
+    "start": "npm run ingest && NODE_ENV=production node --import tsx src/server/index.ts",
+    "ingest": "node --import tsx scripts/ingest.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "evaluate": "node --import tsx scripts/evaluate.ts",
+    "check": "npm run test && npm run build && npm run evaluate"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.2",
+    "vitest": "^4.0.10"
+  }
+}

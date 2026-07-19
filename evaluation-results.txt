@@ -1,0 +1,38 @@
+Notes Q&A Assistant — Evaluation
+Run: 2026-07-19T12:24:35.579Z
+Threshold: 0.12
+
+PASS 1. What did we decide about caching?
+  returned answer: yes
+  correct citation: yes (q2-planning.md)
+  correct refusal: yes
+PASS 2. How long do cached dashboard summaries live?
+  returned answer: yes
+  correct citation: yes (q2-planning.md)
+  correct refusal: yes
+PASS 3. How do employees sign in?
+  returned answer: yes
+  correct citation: yes (security-review.md)
+  correct refusal: yes
+PASS 4. How long are audit logs retained?
+  returned answer: yes
+  correct citation: yes (security-review.md)
+  correct refusal: yes
+PASS 5. Why did the pilot launch move to 15 July?
+  returned answer: yes
+  correct citation: yes (launch-retrospective.md)
+  correct refusal: yes
+PASS 6. What is the office lunch menu on Fridays?
+  returned answer: no
+  correct citation: yes
+  correct refusal: yes
+PASS 7. Who won the company football tournament?
+  returned answer: no
+  correct citation: yes
+  correct refusal: yes
+PASS 8. What color is the new company logo?
+  returned answer: no
+  correct citation: yes
+  correct refusal: yes
+
+Summary: 8/8 passed
